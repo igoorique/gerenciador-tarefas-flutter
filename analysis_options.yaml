@@ -1,0 +1,8 @@
+# Regras de análise estática (lints) recomendadas pelo time do Flutter.
+analyzer:
+  exclude:
+    - build/**
+    - android/**
+    - ios/**
+    - web/**
+include: package:flutter_lints/flutter.yaml
